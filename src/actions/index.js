@@ -7,3 +7,10 @@ export const selectSong = (song) => {
         payload: song
     }
 }
+export const selectMovie = (movie) => {
+    //returning a action
+    return {
+        type: 'MOVIE-SELECTED',
+        payload: movie
+    }
+}
